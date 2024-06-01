@@ -8,8 +8,9 @@
 
 .heading{
 	text-align:center;
-	color:yellowgreen;
+	color:#27ae60;
 	font-size:3rem;
+	padding-top: 2rem;
 	padding-bottom:2rem;
 	text-transform:uppercase;
 	
@@ -20,15 +21,15 @@
 	display:inline-block;
 	font-size:1.7rem;
 	color:#fff;
-	background:blue;
-	border-radius:.5rem%;
+	background:#192a56;
+	border-radius:.5rem;
 	cursor:pointer;
 	padding:1rem 1.5rem;
 	text-decoration:none;
 	
 }
 .btn:hover{
-	background:lightgreen;
+	background:#27ae60;
 	letter-spacing:.1rem;
 }
 
@@ -67,7 +68,7 @@
 
 .dishes .box-container .box .fa-heart:hover,
 .dishes .box-container .box .fa-eye:hover{
-	background:green;
+	background:#27ae60;
 	color:#fff;
 }
 
