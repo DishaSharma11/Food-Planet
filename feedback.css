@@ -105,3 +105,6 @@ form textarea:focus::placeholder{
 button:hover{
 	background-color:#00fff0;
 }
+a{
+	color: black !important;
+}
