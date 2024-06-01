@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete Responsive Food Website Design Tutorial</title>
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<section class="menu" id="menu">
+<h3 class="sub-heading"> our menu </h3>
+<h1 class="heading"> breakfast</h1>
+<div class="box-container">
+	<div class="box">
+		<div class="image">
+			<img src="https://madhurasrecipe.com/wp-content/uploads/2020/10/Dhaba-Style-Aloo-Paratha-feature.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>aloo paratha</h3>
+			<p>Punjabi aloo paratha is a popular Indian breakfast of unleavened whole wheat flatbread stuffed with
+			potatoes.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.150</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://c.ndtvimg.com/2019-11/uutrggs_chole-bhature_625x300_26_November_19.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>chole bhature</h3>
+			<p> Chole bhature is a very famous Punjabi breakfast dish served with Chole (spicy chick peas), Bhatura, onion.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.200</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://www.merisaheli.com/wp-content/uploads/2017/10/poori-bhaji-recipe-5.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>aloo puri </h3>
+			<p>Bedmi Aloo Recipe - spicy, delicious potato curry served with bedmi puri.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.150</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://vaya.in/recipes/wp-content/uploads/2018/02/Idli-and-Sambar-1.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>idli sambhar</h3>
+			<p>Idli sambar are almost inseparable members on a traditional South Indian platter. 
+			Idlies are steamed</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.250</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://media.vogue.in/wp-content/uploads/2020/10/poha-recipe-1920x1080.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>poha </h3>
+			<p>This light, healthy and easy-to-make breakfast special can easily be 
+			customised to your liking.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.200</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://tastedrecipes.com/wp-content/uploads/2020/12/bread-upma.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>bread upma</h3>
+			<p>Bread upma is a South Indian upma variety made with bread, spices and herbs. 
+			This spicy bread upma</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.200</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://www.easycookingwithmolly.com/wp-content/uploads/2015/01/oats-dosa-main.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>oats chilla</h3>
+			<p>Instant Savory Oats Crepe - Oats Chilla: A delicious and healthy breakfast option that's ready in 10</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.215</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://i1.wp.com/cookingtoentertain.com/wp-content/uploads/2020/04/Indian-Bread-Omelet.jpg?w=1200&ssl=1.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>bread omlette</h3>
+			<p>This butter shrimp recipe is a lot quicker than butter chicken and 
+			can even be made with leftover</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.150</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://gkfooddiary.com/wp-content/uploads/2016/03/27763837093_fc10b4b897_z.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>vegetable khichdi</h3>
+			<p>Vegetable dal Khichdi - A quick comforting made with rice, lentils and vegetables.
+			Nutritious food</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.250</span>
+		</div>
+	</div>
+</div>
+</section>
+<script src="js script.js"></script>
+</body>
+</html>

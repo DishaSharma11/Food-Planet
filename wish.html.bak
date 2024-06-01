@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete Responsive Food Website Design Tutorial</title>
+<link rel="stylesheet" href="wish.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<section class="menu" id="menu">
+<h1 class="heading"> wishlist</h1>
+<div class="box-container">
+	<div class="box">
+		<div class="image">
+			<img src="https://madhurasrecipe.com/wp-content/uploads/2020/10/Dhaba-Style-Aloo-Paratha-feature.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				
+			</div>
+			<h3>aloo paratha</h3>
+			<p>Punjabi aloo paratha is a popular Indian breakfast of unleavened whole wheat flatbread stuffed with
+			potatoes.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.150</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://c1.staticflickr.com/1/734/22992601191_97787051d9_o.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>paneer korma with naan</h3>
+			<p>If you are bored of the common paneer recipes, then here is a creamy and succulent 
+			dish made of paneer. </p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.370</span>
+		</div>
+	</div>
+	<div class="box">
+		<div class="image">
+			<img src="https://www.dfifoodservice.com/emshare/views/modules/asset/downloads/originals/2020/05/72117/MangoIceTea_Main.jpg/MangoIceTea_Main.jpg" alt="">
+			<a href="#" class="fas fa-heart"></a>
+		</div>
+		<div class="content">
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<h3>mango ice tea</h3>
+			<p>Each sip of mango ice tea not only brings relief from summer heat 
+			but it is healthy drink too.</p>
+			<a href="#" class="btn">add to cart</a>
+			<span class="pice">Rs.105</span>
+		</div>
+	</div>
+</div>
+</section>
+<script src="js script.js"></script>
+</body>
+</html>

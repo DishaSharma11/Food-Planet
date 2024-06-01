@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="blueBg">
+            <div class="box SignIn">
+                <h2>Already Have an Account?</h2>
+                <button class="signInBtn">Sign In</button>
+            </div>
+            <div class="box SignUp">
+                <h2>Don't Have an Account?</h2>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+        </div>
+        <div class="formBox">
+            <div class="form signInForm">
+                <form>
+                    <h3>Sign In</h3>
+                    <input type="text" placeholder="Username..." required>
+                    <input type="password" placeholder="Password..." required>
+                    <input type="submit" value="Login">
+                    <a href="#" class="forgotPass">Forgot Password?</a>
+                </form>
+            </div>
+
+            <div class="form signUpForm">
+                <form>
+                    <h3>Sign Up</h3>
+                    <input type="text" max=8 placeholder="Username..." required>
+                    <input type="email" placeholder="Enter email address..."required>
+                    <input type="password" placeholder="Enter password..."required>
+                    <input type="password" placeholder="Confirm password..."required>
+                    <input type="submit" value="Register" onclick="register()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- java scripting -->
+    <script>
+        const signInBtn = document.querySelector('.signInBtn');
+        const signUpBtn = document.querySelector('.signUpBtn');
+        const formBox = document.querySelector('.formBox');
+        const body = document.querySelector('body');
+
+        signUpBtn.onclick = function() {
+            formBox.classList.add('active');
+            body.classList.add('active');
+        };
+
+        signInBtn.onclick = function() {
+            formBox.classList.remove('active');
+            body.classList.remove('active');
+        };
+        function register() {
+            alert("Succesfully Registered..")
+        }
+		 
+       document.querySelector(".checkName").onkeydown=e=>{
+       if (e.key.match(/[a-z ]/gmi)==null){
+        e.preventDefault()
+        }
+}
+
+
+    </script>
+</body>
+</html

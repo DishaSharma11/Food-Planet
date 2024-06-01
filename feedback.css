@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+*{
+	margin:0;
+	padding:0;
+	font-family:'Poppins', sans-serif;
+	box-sizing:border-box;
+	outline:none;
+	color:yellow;
+}
+
+section{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background:url("https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size:95%;
+	background-position:center;
+	
+}
+
+
+body{
+	display:flex;
+	min-height:100vh;
+	align-items:center;
+	justify-content:center;
+}
+
+.container{
+	width:360px;
+	background:#000000;
+	opacity:0.6;
+}
+
+.container form{
+	width:100%;
+	text-align:center;
+	padding:25px 20px 
+}
+
+
+form h1{
+	padding:10px 0;
+	color:yellow;
+}
+
+
+
+form input{
+	width:100%;
+	height:50px;
+	margin:4px 0;
+	border:1px solid yellow;
+	border-radius:4px;
+	background:#181717;
+	padding:0 15px;
+	padding-right:45px;
+	font-size:20px;
+	
+}
+
+
+form textarea{
+	padding:5px 15px;
+    border:1px solid yellow;
+	border-radius:4px;
+	background:#181717;
+	padding:0 15px;
+	font-size:20px;
+	width:100%;
+	margin:4px 0;
+	
+}
+
+form button{
+	margin-top:5px;
+	border:none;
+	background:yellow;
+	color:#222;
+	padding:10px;
+	width:100%;
+	font-size:20px;
+	font-weight:800;
+	cursor:pointer;
+	border-radius:4px;
+	
+}
+
+form input:focus,
+form textarea:focus{
+	border:1px solid yellow;
+	color:yellow;
+	transition:all 0.4s ease;
+}
+
+
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+	padding-left:4px;
+	color:yellow;
+	transition:all 0.4s ease;
+}
+
+button:hover{
+	background-color:#00fff0;
+}
